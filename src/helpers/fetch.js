@@ -1,4 +1,4 @@
-const baseUrl = "https://chat-empresaj.herokuapp.com/api/"
+const baseUrl = "https://chat-empresaj.herokuapp.com/api"
 
 export const fetchSinToken = async (endpoint, data, method = "GET") => {
     const url = `${baseUrl}/${endpoint}`;
